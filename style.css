@@ -1,0 +1,128 @@
+/* Main Page CSS */
+.mainBg{
+    background-image: url(img1.gif);
+    background-size: cover;
+}
+
+.mainMsg{
+    background-color: rgba(0, 0, 0, 0.715);
+    border-radius: 35px 35px 35px 35px;
+    color: #ffffff;
+    display: block;
+    font-family: Kanit;
+    font-size: 18px;
+    margin-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+}
+
+.mainBtn{
+    align-items: center;
+    background-color:rgba(20, 162, 48, 0.411);
+    border-radius:28px;
+    color:#ffffff;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 13.5px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding:16px 31px;
+    text-decoration: none;
+    width: 15%;
+}
+
+.mainBtn:hover{
+    background-color:rgb(20, 162, 48);
+}
+
+/* Bio Page CSS */
+
+.bioPage{
+    background-image: repeating-linear-gradient(135deg, hsla(35,0%,71%,0.09) 0px, hsla(35,0%,71%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(35,0%,71%,0.09) 0px, hsla(35,0%,71%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, hsl(183,0%,100%),hsl(183,0%,100%));
+}
+
+.bioPage h1{
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed;
+    font-size: 80px;
+    margin-top: 1%;
+    text-align: center;
+    text-shadow: 7px 7px 5px #00000053;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.bioIntro{
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed;
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: -1%;
+    text-align: center;
+    text-shadow: 4px 4px 3px #00000053;
+    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-color: black;
+}
+
+.bioHeader{
+    text-align: center;
+}
+
+.bioPrev{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+.bioPrev:hover{
+    color: rgb(255, 183, 0);
+}
+
+.bioMain1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.bioList{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.bioFooter{
+    background: rgba(0, 0, 0, 0.56);
+    height: 50px;
+    margin-left: -1.5%;
+    margin-right:-1.5%;
+    margin-bottom: -1.1%
+}
+
+.bioFooter ul{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bioFooter ul li{
+    list-style-type: none;
+    float: left;
+    width: 40px;
+
+}
+
+.bioFooter ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 70px;
+}
